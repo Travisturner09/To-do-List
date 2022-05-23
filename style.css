@@ -1,0 +1,90 @@
+body {
+    background-image: url("./kitana.jpg");
+    color: white;
+    background-blend-mode: overlay;
+    background-repeat: no-repeat;
+    background-size: cover;
+    font-family: sans-serif;
+    background-position: center;
+    overflow: hidden;
+  }
+  
+  
+  h1 {
+    margin: 20px;
+    padding: 20px 550px;
+  }
+  
+  #newDIV {
+    background-color: rgba(0, 0, 0, 0.502);
+    border-radius: 5px;
+    justify-content: space-between;
+    width: 350px;
+    height: 100px;
+    margin: 250px 430px;
+    text-align: center;
+    justify-content: center;
+    border: none;
+    padding: 40px;
+    padding-top: 2px;
+  }
+  
+  .buttons {
+    display: flex;
+    justify-content: center;
+    height: 1cm;
+  }
+  
+  .addBtn {
+    color: white;
+    background-color: darkblue;
+    border: none;
+    width: 2.5cm;
+    padding: 10px;
+  }
+  
+  .addBtn:hover {
+    background-color: black;
+  }
+  
+  #newInput {
+    width: 95%;
+    border: none;
+  }
+  
+  ul {
+    margin: 0px;
+    padding: 0px;
+  
+  }
+  li{
+    border: 0.5px solid green; 
+  }
+  
+  ul li {
+    position: relative;
+    padding: 12px 8px 12px 40px;
+    background-color: rgba(255, 255, 255, 0.908);
+    color: green;
+    width: 382px;
+    border-radius: 5px;
+    list-style: none;
+  }
+  
+  ul li:hover {
+    background-color: rgba(207, 237, 214, 0.618);
+  }
+  
+  .close {
+    position: absolute;
+    right: 0;
+    top: 0;
+    color: green;
+    padding: 12px 16px 12px 16px;
+  }
+  .list{
+  position: relative;
+  bottom: 250px;
+  left: 430px;
+  }
+  
